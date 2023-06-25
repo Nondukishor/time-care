@@ -3,3 +3,8 @@
 
 ![time-care app](image.png)
 
+install
+
+```
+pip install -r requirements.txt
+```
