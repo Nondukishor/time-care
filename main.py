@@ -1,4 +1,5 @@
 import sys
+import os
 import ctypes
 import datetime
 from PyQt5.QtCore import QTimer, Qt
@@ -15,7 +16,8 @@ from PyQt5.QtWidgets import (
     QTextEdit,
     QMessageBox,
 )
-from win11toast import toast
+from notification import showNotification
+from helper import lock_workstation
 
 FONT_SIZE_14="font-size: 14px;"
 class AboutDialog(QDialog):
@@ -118,8 +120,8 @@ class TimerWindow(QMainWindow):
         duration = int(self.duration_input.text())
         if self.time_elapsed >= duration * 60:
             self.stop_timer()
-            toast("Take a break!", "Take care of your back.", duration="long", buttons=["reminder"])
-            ctypes.windll.user32.LockWorkStation()
+            showNotification("Take a break!", "Take care you health. You should take break")
+            lock_workstation()
             task = self.task_input.toPlainText()
             print(f"You worked on: {task}")
 
