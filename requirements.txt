@@ -1,0 +1,4 @@
+keyboard==0.13.5
+PyQt5==5.15.9
+win11toast==0.32
+

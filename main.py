@@ -1,6 +1,4 @@
 import sys
-import os
-import ctypes
 import datetime
 from PyQt5.QtCore import QTimer, Qt
 from PyQt5.QtGui import QColor, QPalette, QIcon
