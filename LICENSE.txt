@@ -10,4 +10,4 @@ The Software is provided "as is," without warranty of any kind, express or impli
 
 If you make any changes or modifications to the Software and distribute them, you must include clear and prominent notices indicating that you have modified the Software.
 
-Please replace [Year] with the current year and [Your Name] with your name or the name of your organization. You may also consider consulting with a legal expert or using open-source license generators to ensure that the license suits your project's specific needs and goals. Additionally, you may want to include a LICENSE file in your project's repository with the full text of the license for easy reference.
+Please replace [Year with the current year and [Your Name] with your name or the name of your organization. You may also consider consulting with a legal expert or using open-source license generators to ensure that the license suits your project's specific needs and goals. Additionally, you may want to include a LICENSE file in your project's repository with the full text of the license for easy reference.
